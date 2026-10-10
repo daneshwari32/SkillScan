@@ -15,7 +15,7 @@
 <body>
      <div class="box">
      <h2>SkillScan</h2>
-     <P>Resume upload madi,job match nodi!</P>
+     <P>upload your resume and discover your perfect job match </P>
      <form action="/analyze/"method= "post"enctype="multipart/form-data">
         {%csrf_token%}
         <input type = "file" name="resume" accept=".pdf,.docx" required><br>
