@@ -21,8 +21,11 @@ JOBS = [
     {"title": "Python Developer", "company": "Infosys", "skills": ["python", "django", "sql", "git"], "location": "Bangalore"},
     {"title": "Frontend Developer", "company": "Wipro", "skills": ["javascript", "react", "html", "css"], "location": "Bangalore"},
     {"title": "Data Scientist", "company": "TCS", "skills": ["python", "machine learning", "pandas", "sql"], "location": "Hyderabad"},
+     {"title": "Data Scientist", "company": "TCS", "skills": ["python", "machine learning", "pandas", "sql"], "location": "Bangalore"},
     {"title": "Full Stack Developer", "company": "Accenture", "skills": ["python", "react", "node js", "mongodb"], "location": "Pune"},
+    {"title": "Full Stack Developer", "company": "Accenture", "skills": ["python", "react", "node js", "mongodb"], "location": "Bang"},
     {"title": "Java Developer", "company": "Capgemini", "skills": ["java", "spring boot", "sql", "aws"], "location": "Chennai"},
+    {"title": "Java Developer", "company": "Capgemini", "skills": ["java", "spring boot", "sql", "aws"], "location": "Bangalore"},
 ]
 
 def extract_text_from_pdf(file):
